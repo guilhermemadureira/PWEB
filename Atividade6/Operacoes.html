@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operacoes</title>
+</head>
+<body>
+    <script>
+        var num1 = prompt("Digite o primeiro numero: ");
+        var num2 = prompt("Digite o segundo numero: ");
+
+        var soma = parseFloat(num1) + parseFloat(num2);
+        var sub = num1 - num2;
+        var mult = num1 * num2;
+        var div = num1 / num2;
+        var resto = num1 % num2;
+
+        var confirma = confirm("Mostrar o resultado?")
+        if(confirma){
+            alert("A soma é = " + soma);
+            alert("A subtração é = " + parseFloat(sub));
+            alert("A multiplicação é = " + parseFloat(mult));
+            alert("A divisão é = " + parseFloat(div).toFixed(2));
+            alert("O resto da divisão é = " + parseFloat(resto));
+        }
+        
+    </script>
+</body>
+</html>

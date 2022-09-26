@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Media</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Escreva o nome do aluno")
+        var nota1 = prompt("Digite a nota 1: ")
+        var nota2 = prompt("Digite a nota 2: ")
+        var nota3 = prompt("Digite a nota 3: ")
+        
+        var decisao = confirm("Deseja ver a média??")
+        if(decisao){
+            alert(((parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3))/3).toFixed(2))
+        }
+
+    </script>
+</body>
+</html>
