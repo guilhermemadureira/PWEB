@@ -1,0 +1,26 @@
+body{
+    background-color: hsl(180, 100%, 50%);
+    background-size: auto;
+    width: 35%;
+}
+nav h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+nav{
+    border-bottom: 1px solid #d4d4d4;
+}
+
+h3 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}

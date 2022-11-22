@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Formulário Principal</h1>
+    </nav>
+    <section>
+        <form action="" name="formulario1" id="formulario1" onsubmit="return validar();">
+            Nome:
+            <br>
+            <input type="text" id="idNome" size="26" maxlength="311">
+            <br>
+            <br>
+            E-mail:
+            <br>
+            <input type="text" id="idEmail" size="52" maxlength="311">
+            <br>
+            <br>
+            Comentario:
+            <br>
+            <textarea id="idComentario" cols="26" rows="6"></textarea>
+            <br>
+            <br>
+            <div id="center">
+                <h3>
+                    <p>Pesquisa: </p>
+                </h3>
+                <p>Primeira vez nesta página??</p>
+                <input type="radio" name="pesquisa" id="idSim" value="2">Sim
+                <input type="radio" name="pesquisa" id="idNao" value="1">Não
+                <br>
+                <br><br>
+                <input name="Submit" type="submit" form="formulario1" value="Enviar">
+                <input name="Reset" type="reset" form="formulario1" value="Limpar">
+            </div>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
